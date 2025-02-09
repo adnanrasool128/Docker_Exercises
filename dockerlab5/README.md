@@ -105,6 +105,70 @@ You should see user data fetched from the PostgreSQL database.
 
 ---
 
+## 📜 Understanding the Code
+### **🔹 `stream.py` – The Core Application**
+- Connects to **PostgreSQL** using `psycopg2`.
+- Queries the **users table** and fetches stored data.
+- Displays user information inside a **Streamlit web interface**.
+- Implements **error handling** for database connectivity issues.
+
+### **🔹 `requirements.txt` – Dependencies**
+- Lists required Python libraries: `streamlit`, `psycopg2`.
+
+### **🔹 `Dockerfile` – Containerizing the App**
+- Defines a **Python environment** with necessary dependencies.
+- Copies `stream.py` into the container.
+- Runs the **Streamlit application** inside the container.
+
+### **🔹 `docker-compose.yml` – Managing Containers**
+- Automates **database and application startup**.
+- Ensures both **Streamlit and PostgreSQL** run in a unified environment.
+
+### **🔹 `.dockerignore` – Optimizing Docker Build**
+- Prevents unnecessary files from being added to the Docker image.
+
+---
+
+## 🎨 Customization & Enhancements
+Looking to enhance the app? Here are some ideas:
+- 🏆 **Expand database schema** → Add more tables or data.
+- 📊 **Enhance UI** → Improve Streamlit dashboard design.
+- ⚡ **Optimize Docker setup** → Use **multi-stage builds**.
+- 🔐 **Add authentication** → Secure database connections.
+- 🚀 **Integrate with APIs** → Fetch and store external data.
+
+---
+
+## 💡 Troubleshooting Guide
+❓ **Database container fails to start?**
+```bash
+docker logs my_postgres
+```
+
+❓ **Connection issues between Streamlit and PostgreSQL?**
+- Ensure both containers are running:
+```bash
+docker ps
+```
+- Restart the containers:
+```bash
+docker restart my_postgres streamlit_app
+```
+
+❓ **Changes not appearing in the app?**
+```bash
+docker-compose up --build --force-recreate
+```
+
+❓ **Cannot access the app on `localhost:8501`?**
+- Check if the container is running:
+```bash
+docker ps
+```
+- Verify no firewall is blocking the port.
+
+---
+
 ## ✅ Summary
 - **Created a custom Docker network (`my_custom_network`)**
 - **Launched a PostgreSQL container and inserted dummy data**

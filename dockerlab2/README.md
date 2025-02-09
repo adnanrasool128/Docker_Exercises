@@ -50,8 +50,8 @@ http://localhost:8501
 ### **2️⃣ Running Inside a Docker Container**
 To containerize and launch the app:
 ```bash
-docker build -t stream .
-docker run -p 8501:8501 stream
+docker build -t streamlit-app .
+docker run -p 8501:8501 streamlit-app
 ```
 Then, access the app via:
 ```bash

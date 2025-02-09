@@ -16,7 +16,7 @@ This application dynamically classifies mushrooms as **edible or poisonous** usi
 
 ## 📂 Project Structure
 ```bash
-📂 DockerLab2
+📂 dockerlab3
 │── 📜 docker-compose.yml        # Standard Docker Compose configuration
 │── 🛠️ docker-compose.debug.yml  # Debugging-enabled Compose file
 │── 📄 Dockerfile                # Docker build instructions

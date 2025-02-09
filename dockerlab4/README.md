@@ -16,7 +16,7 @@ This project helps you **run a MySQL database inside a Docker container**, with 
 
 ## 📂 Project Structure
 ```bash
-📂 MySQL-Docker
+📂 dockerlab4
 │── 📜 Dockerfile            # Docker build instructions for MySQL
 │── 🗄️ database.sql           # SQL script to create database & table
 │── 📖 README.md             # Project documentation

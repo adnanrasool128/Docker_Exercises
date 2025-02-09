@@ -15,7 +15,7 @@ This application dynamically generates a **spiral graph** based on user inputs u
 
 ## 📂 Project Structure
 ```bash
-📂 DockerLab2
+📂 dockerlab2
 │── 📜 docker-compose.yml        # Standard Docker Compose configuration
 │── 🛠️ docker-compose.debug.yml  # Debugging-enabled Compose file
 │── 📄 Dockerfile                # Docker build instructions

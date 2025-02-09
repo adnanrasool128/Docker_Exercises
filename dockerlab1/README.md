@@ -25,19 +25,18 @@ Before you get started, make sure you have the following installed:
 ### 1️⃣ Clone the Repository
 ```bash
 git clone <repository_url>
-cd dockerlab1
 ```
 
 ### 2️⃣ Build the Docker Image
 Docker will create an image based on the `Dockerfile`, which contains the necessary instructions to set up the environment and copy `hello.py`.
 ```bash
-docker build -t dockerlab1 .
+docker build -t hello .
 ```
 
 ### 3️⃣ Run the Docker Container
 After building the image, you can run a container that will execute `hello.py`.
 ```bash
-docker run dockerlab1
+docker run hello
 ```
 
 ---

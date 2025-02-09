@@ -7,7 +7,7 @@ DockerLab1 is a simple yet powerful project designed to demonstrate containeriza
 
 ## 📂 Project Structure
 ```bash
-DockerLab1/
+📂 dockerlab1
 │── 📜 Dockerfile           # Defines the Docker image and installation steps
 │── 🐍 hello.py             # Simple Python script that prints "hello"
 │── 📖 README.md            # Project documentation

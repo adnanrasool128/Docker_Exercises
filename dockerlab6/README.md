@@ -70,7 +70,7 @@ Run the following command to build the Docker image:
 ```bash
 docker build -t python-log-app .
 ```
-!(image.png)
+![alt text](image.png)
 This creates an image named `python-log-app`.
 
 ---
@@ -80,7 +80,7 @@ To ensure logs are **persisted**, mount a Docker volume and run the container:
 ```bash
 docker run -d -v my-app-data:/data python-log-app
 ```
-!(image-1.png)
+![alt text](image-1.png)
 **Explanation:**
 - `-d`: Runs the container in detached mode.
 - `-v my-app-data:/data`: Mounts the volume `my-app-data` to `/data` inside the container.
@@ -109,7 +109,7 @@ cat app.log
 ```bash
 docker volume inspect my-app-data
 ```
-!(image-2.png)
+![alt text](image-2.png)
 ---
 
 ## 📜 Understanding the Code

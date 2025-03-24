@@ -41,7 +41,8 @@ This ensures communication between the PostgreSQL and Streamlit containers.
 ```bash
 docker network create --driver bridge my_custom_network
 ```
-!(image.png)
+![alt text](image.png)
+
 ### **2️⃣ Run PostgreSQL Container**
 ```bash
 docker run -d \
@@ -53,7 +54,8 @@ docker run -d \
   -p 5432:5432 \
   postgres
 ```
-!(image-1.png)
+![alt text](image-1.png)
+
 This starts a PostgreSQL container with:
 - **Username:** `admin`
 - **Password:** `adminpassword`
@@ -80,7 +82,8 @@ INSERT INTO users (name, email) VALUES
 
 SELECT * FROM users;
 ```
-!(image-2.png)
+![alt text](image-2.png)
+
 #### Exit PostgreSQL
 Type `\q` and press Enter.
 

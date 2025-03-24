@@ -44,22 +44,24 @@ If you prefer to run the app on your local machine:
 pip install -r requirements.txt
 streamlit run app.py
 ```
+!(image-1.png)
 Then, open your browser and go to:
 ```bash
 http://localhost:8501
 ```
-
+!(image-2.png)
 ### **2️⃣ Running Inside a Docker Container**
 To containerize and launch the app:
 ```bash
 docker build -t streamlit-ml-app .
 docker run -p 8501:8501 streamlit-ml-app
 ```
+!(image-3.png)
 Then, access the app via:
 ```bash
 http://localhost:8501
 ```
-
+!(image-4.png)
 ### **3️⃣ Debugging with Docker Compose**
 Enable remote debugging by running:
 ```bash
@@ -123,9 +125,9 @@ docker-compose up --build --force-recreate
 
 ## 🙌 Contributions & Feedback
 Have suggestions or want to contribute? 🚀
-✅ Open an issue 📝  
-✅ Start a discussion 💬  
-✅ Fork & contribute! 🎉  
+✅ Open an issue 📝
+✅ Start a discussion 💬
+✅ Fork & contribute! 🎉
 
 Let's build powerful ML-driven containerized apps together! 🐳✨
 

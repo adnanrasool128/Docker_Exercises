@@ -38,6 +38,8 @@ To start the database inside a Docker container:
 docker build -t mysql-db .
 docker run --name mysql-container -d -p 3306:3306 mysql-db
 ```
+!(image.png)
+!(image-1.png)
 This will:
 - Build a MySQL Docker image named `mysql-db`.
 - Start a MySQL container named `mysql-container`.
@@ -57,7 +59,7 @@ USE student;
 SHOW TABLES;
 SELECT * FROM students;
 ```
-
+!(image-2.jpg)
 ### **3️⃣ Stopping and Removing the Container**
 To stop the running container:
 ```bash

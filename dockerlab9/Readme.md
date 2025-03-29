@@ -81,8 +81,9 @@ http://<EC2-Public-IP>:8501
 
 ---
 ### Result
----
+
 ![alt text](../dockerlab3/image-2.png)
+
 ---
 
 ## 🔧 Essential Docker Commands

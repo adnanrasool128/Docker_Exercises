@@ -100,24 +100,31 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-source "amazon-ebs" "python39" {
-  ami_name      = "bakery-foundation-python39-${formatdate("YYYYMMDD-HHmmss", timestamp())}"
-  instance_type = "t2.micro"
-  region        = var.aws_region
-  source_ami    = "ami-0a25f237e97fa2b5e"
-  ssh_username  = "ubuntu"
+source "amazon-ebs" "ubuntu" {
+  region           = var.aws_region
+  source_ami      = "ami-04b4f1a9cf54c11d0" # Ubuntu 20.04 AMI (ensure this exists)
+  instance_type   = "t2.micro"
+  ssh_username    = "ubuntu"
+  "ami_name": "python3.9-only-ami-{{timestamp}}",
 }
 
 build {
-  sources = ["source.amazon-ebs.python39"]
-  
+  sources = ["source.amazon-ebs.ubuntu"]
+
   provisioner "shell" {
-    inline = [
-      "sudo apt-get update",
-      "sudo apt-get install -y python3.9 python3.9-venv python3.9-dev"
-    ]
-  }
+  inline = [
+    "curl https://pyenv.run | bash",
+    "export PATH=$HOME/.pyenv/bin:$PATH",
+    "eval \"$(pyenv init --path)\"",
+    "pyenv install 3.9.0",
+    "pyenv global 3.9.0",
+    "python3.9 --version"
+  ]
 }
+
+}
+
+
 ```
 
 3. Save the file as **`bakery.pkr.hcl`** in `C:\packer`.

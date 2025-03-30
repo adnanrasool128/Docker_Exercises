@@ -26,7 +26,6 @@ Before running Docker commands, ensure you have it installed:
 
 ## 🚀 Projects
 
----
 ### 1. [Getting Started with_Docker ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/01.Getting%20Started%20with_Docker)
 
 📌 **Description:** This is a simple project designed to demonstrate containerization using Docker.

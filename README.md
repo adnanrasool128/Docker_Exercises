@@ -27,54 +27,54 @@ Before running Docker commands, ensure you have it installed:
 ## 🚀 Projects
 
 ---
-### 1. [Getting Started with_Docker ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/1.Getting%20Started%20with_Docker)
+### 1. [Getting Started with_Docker ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/01.Getting%20Started%20with_Docker)
 
 📌 **Description:** This is a simple project designed to demonstrate containerization using Docker.
 
 ---
 
-### 2. [Streamlit + Docker-Interactive Data Visualization ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/2.Streamlit%20%2B%20Docker-Interactive%20Data%20Visualization)
+### 2. [Streamlit + Docker-Interactive Data Visualization ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/02.Streamlit%20%2B%20Docker-Interactive%20Data%20Visualization)
 
 📌 **Description:** This project demonstrates an interactive spiral visualization powered by Streamlit and Altair charts, fully containerized using Docker.
 
 ---
 
-### 3. [Streamlit + Docker-Machine Learning Classification App ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/3.Streamlit%20%2B%20Docker-Machine%20Learning%20Classification%20App)
+### 3. [Streamlit + Docker-Machine Learning Classification App ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/03.Streamlit%20%2B%20Docker-Machine%20Learning%20Classification%20App)
 
 📌 **Description:** This project demonstrates a machine learning-based binary classification powered by Streamlit, fully containerized using Docker.
 
 ---
 
-### 4. [MySQL + Docker--Database Containerization> ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/4.MySQL%20%2B%20Docker--Database%20Containerization)
+### 4. [MySQL + Docker--Database Containerization> ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/04.MySQL%20%2B%20Docker--Database%20Containerization)
 
 📌 **Description:** This project provides a fully containerized MySQL database using Docker, making it easy to set up, manage, and scale your database environment.
 
 ---
 
-### 5. [5.Streamlit + PostgreSQL + Docker--Interactive Data App ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/5.Streamlit%20%2B%20PostgreSQL%20%2B%20Docker--Interactive%20Data%20App)
+### 5. [5.Streamlit + PostgreSQL + Docker--Interactive Data App ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/05.Streamlit%20%2B%20PostgreSQL%20%2B%20Docker--Interactive%20Data%20App)
 
 📌 **Description:** This project demonstrates a fully containerized web application using Streamlit for the frontend and PostgreSQL as the database.
 
 ---
 
-### 6. [Python Logging Application with Docker ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/6.Python%20Logging%20Application%20with%20Docker)
+### 6. [Python Logging Application with Docker ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/06.Python%20Logging%20Application%20with%20Docker)
 
 📌 **Description:** This project demonstrates a Python logging application fully containerized using Docker.
 
 ---
-### 7. [Evidently AI in Docker--A Complete Guide to ML Model Monitoring ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/7.Evidently%20AI%20in%20Docker--A%20Complete%20Guide%20to%20ML%20Model%20Monitoring)
+### 7. [Evidently AI in Docker--A Complete Guide to ML Model Monitoring ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/07.Evidently%20AI%20in%20Docker--A%20Complete%20Guide%20to%20ML%20Model%20Monitoring)
 
 📌 **Description:** This project enables real-time monitoring of machine learning models, offering interactive reports and insights through a web-based dashboard.
 
 ---
 
-### 8. [Mastering Docker Bridge Networking--Isolation & Connectivity ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/8.Mastering%20Docker%20Bridge%20Networking--Isolation%20%26%20Connectivity)
+### 8. [Mastering Docker Bridge Networking--Isolation & Connectivity ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/08.Mastering%20Docker%20Bridge%20Networking--Isolation%20%26%20Connectivity)
 
 📌 **Description:** This repository provides a comprehensive guide to Docker bridge networking, covering topics such as isolation, connectivity, and network configuration
 
 ---
 
-### 9. [Mastering Docker Deployment on AWS EC2 ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/9.%20Mastering%20Docker%20Deployment%20on%20AWS%20EC2)
+### 9. [Mastering Docker Deployment on AWS EC2 ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/09.%20Mastering%20Docker%20Deployment%20on%20AWS%20EC2)
 
 📌 **Description:** This repository showcases the process of deploying a Docker container on an AWS EC2 instance, ensuring secure and efficient container.
 

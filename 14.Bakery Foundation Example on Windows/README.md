@@ -178,6 +178,8 @@ This will:
 2. Navigate to **EC2 → AMIs**.
 3. Find the AMI named: `python3.9-only-ami-{{timestamp}}`.
 
+![alt text](image-3.png)
+
 ### 🔹 4.2 Launch an EC2 Instance with Your AMI
 
 1. Go to **AWS EC2 Console**.
@@ -188,6 +190,8 @@ This will:
    - **Security Group**: Allow **SSH (port 22)**.
 5. Click **Launch**! 🚀
 
+![alt text](image-4.png)
+
 ### 🔹 4.3 Verify Python Installation
 
 Once inside the instance, run:
@@ -197,8 +201,9 @@ python3.9 --version
 ✅ Expected Output:
 ```
 Python 3.9.0
-![alt text](image-1.png)
+
 ```
+![alt text](image-1.png)
 
 ---
 

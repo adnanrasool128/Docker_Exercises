@@ -176,7 +176,7 @@ This will:
 ### 🔹 4.1 Find the AMI
 1. Log in to **AWS Console**.
 2. Navigate to **EC2 → AMIs**.
-3. Find the AMI named: `bakery-foundation-python39-<timestamp>`.
+3. Find the AMI named: `python3.9-only-ami-{{timestamp}}`.
 
 ### 🔹 4.2 Launch an EC2 Instance with Your AMI
 

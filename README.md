@@ -109,6 +109,12 @@ Before running Docker commands, ensure you have it installed:
 
 ---
 
+### 15. [AIML Model ](https://github.com/adnanrasool128/Docker_Exercises/tree/main/15.AIML_Model)
+
+📌 **Description:** A powerful web application for training, analyzing, and deploying machine learning models with an intuitive user interface.
+
+---
+
 
 ## 🙌 Join the Conversation!
 This is an **interactive learning space**, and I’d love to hear your thoughts! Have insights, tips, or best practices? Feel free to:

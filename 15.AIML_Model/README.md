@@ -122,8 +122,8 @@ A powerful web application for training, analyzing, and deploying machine learni
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/adnanrasool128/Docker_Exercises/tree/main/15.Final_AIML_Model
-cd Final_AIML_Model
+git clone https://github.com/adnanrasool128/Docker_Exercises/tree/main/15.AIML_Model
+cd AIML_Model
 ```
 
 2. Install dependencies:
